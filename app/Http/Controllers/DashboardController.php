@@ -10,19 +10,4 @@ class DashboardController extends Controller
     	return view('dashboard/dashboard');
     }
 
-    public function getShowProfileUsers($value='')
-    {
-    	echo $value;
-    }
-
-    public function postUpdateStatus($value='')
-    {
-    	echo 'wew';
-    }
-
-    public function getJajang($value='')
-    {
-        echo 'sds';
-    }
-
 }
